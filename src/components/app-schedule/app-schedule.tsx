@@ -109,7 +109,6 @@ export class AppSchedule {
       .map((item) => {
         const e = item.attributes;
         const rsvps = rsvpList[item.id] ? Object.values(rsvpList[item.id]) : []
-        console.log(rsvps);
 
         return {
           id: item.id,
